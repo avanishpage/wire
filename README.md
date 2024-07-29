@@ -2,7 +2,7 @@
 
 name's wire because of the term 'to wire something' (open to suggestions :laugh)
 
-use ### `yarn` first after clonning to install all the dependencies.
+use ### `yarn` first after cloning to install all the dependencies.
 
 # Getting Started with Create React App
 
