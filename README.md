@@ -1,8 +1,8 @@
 # wire
+
 name's wire because of the term 'to wire something' (open to suggestions :laugh)
 
-
-
+use ### `yarn` first after clonning to install all the dependencies.
 
 # Getting Started with Create React App
 
@@ -49,7 +49,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-syndesi Connection in greek
+# To learn React, check out the [React documentation](https://reactjs.org/).
 
+syndesi Connection in greek
