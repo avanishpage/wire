@@ -10,6 +10,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "eslint": "9.x",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -39,5 +40,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "main": "index.js",
+  "repository": "https://github.com/avanishpage/wire.git",
+  "author": "Avanish Page <avanishpp@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0",
+    "typescript-eslint": "^7.18.0"
   }
 }
