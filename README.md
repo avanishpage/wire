@@ -1,8 +1,11 @@
 # wire
 
 name's wire because of the term 'to wire something' (open to suggestions :laugh)
+syndesi Connection in greek - kunal's suggestion
 
-use ### `yarn` first after cloning to install all the dependencies.
+### `yarn`
+
+first after cloning to install all the dependencies.
 
 # Getting Started with Create React App
 
