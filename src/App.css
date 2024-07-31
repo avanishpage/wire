@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+/* Defining colors here as a theme. Please feel free to discuss and add or remove the colors if you want. */
+
+:root {
+  --background-primary: #121212;
+  --background-secondary: #1e1e1e;
+  --background-deep-navy: #0a0f24;
+  --background-slate-gray: #2f4f4f;
+  --background-gunmetal: #283033;
+  --background-charcoal: #36454f;
+  --background-rich-black: #010203;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b3b3b3;
+  --color-text-dim-gray: #696969;
+  --color-text-cool-gray: #8a8a8a;
+  --color-accent: #bb86fc;
+  --color-electric-blue: #3b9eff;
+  --color-cyan: #00ffff;
+  --color-magenta: #ff00ff;
+  --color-success: #50c878;
+  --color-warning: #ffbf00;
+  --color-error: #ff2400;
+  --color-link: #8ab4f8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: var(--background-primary);
+  color: var(--color-text-primary);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-charcoal);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+  color: var(--color-link);
 }
 
-.App-link {
-  color: #61dafb;
+a:hover {
+  color: var(--color-accent);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background-color: var(--color-accent);
+  color: var(--color-text-primary);
+}
+
+button:hover {
+  background-color: lighten(var(--color-accent), 10%);
+}
+
+.success {
+  color: var(--color-success);
+}
+
+.warning {
+  color: var(--color-warning);
+}
+
+.error {
+  color: var(--color-error);
+}
+
+.navbar {
+  background-color: var(--background-deep-navy);
+}
+
+.footer {
+  background-color: var(--background-gunmetal);
+}
+
+.card {
+  background-color: var(--background-slate-gray);
+}
+
+.sidebar {
+  background-color: var(--background-charcoal);
 }
