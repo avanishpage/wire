@@ -3,6 +3,7 @@
 :root {
   --background-primary: #121212;
   --background-secondary: #1e1e1e;
+  --background-tertiary: #252525;
   --background-deep-navy: #0a0f24;
   --background-slate-gray: #2f4f4f;
   --background-gunmetal: #283033;
@@ -25,6 +26,7 @@
 body {
   background-color: var(--background-primary);
   color: var(--color-text-primary);
+  font-family: sans-serif;
 }
 
 .container {
